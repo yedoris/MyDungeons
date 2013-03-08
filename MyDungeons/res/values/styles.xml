@@ -1,0 +1,114 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    
+    
+    <style name="celda_gris_clara">
+        <item name = "android:background">@drawable/celda_gris_claro</item>
+        <item name = "android:layout_weight">1</item>
+        <item name = "android:gravity">center</item>
+		<item name = "android:textAppearance">?android:attr/textAppearanceMedium</item>
+    </style>
+ 
+    <style name="celda_gris_oscura">
+        <item name = "android:background">@drawable/celda_gris_oscuro</item>
+        <item name = "android:layout_weight">1</item>
+        <item name = "android:gravity">center</item>
+		<item name = "android:textAppearance">?android:attr/textAppearanceMedium</item>
+		<item name = "android:textColor">@color/blanco</item>
+    </style>   
+    <style name="celda_gris">
+        <item name = "android:background">@drawable/celda_gris</item>
+        <item name = "android:layout_weight">1</item>
+        <item name = "android:gravity">center</item>
+		<item name = "android:textAppearance">?android:attr/textAppearanceMedium</item>
+    </style>
+        <style name="celda_marron_claro">
+        <item name = "android:background">@drawable/celda_marron_claro</item>
+        <item name = "android:layout_weight">1</item>
+        <item name = "android:gravity">center</item>
+		<item name = "android:textAppearance">?android:attr/textAppearanceMedium</item>
+		<item name = "android:textColor">@color/negro</item>
+    </style>
+        <style name="celda_marron_oscuro">
+        <item name = "android:background">@drawable/celda_marron_oscuro</item>
+        <item name = "android:layout_weight">1</item>
+        <item name = "android:gravity">center</item>
+		<item name = "android:textAppearance">?android:attr/textAppearanceMedium</item>
+		<item name = "android:textColor">@color/gris_claro</item>
+    </style>
+        
+    <style name="nf_tiradas_col_base">
+    	<item name = "android:layout_width">0dp</item>
+    	<item name = "android:layout_height">wrap_content</item>
+    	<item name = "android:layout_weight">2</item>
+    	<item name = "android:layout_marginLeft">10dp</item>
+    	<item name = "android:textAppearance">?android:attr/textAppearanceSmall</item>
+    </style>
+    
+    <style name="nf_tiradas_col_mod">
+    	<item name = "android:layout_width">0dp</item>
+    	<item name = "android:layout_height">wrap_content</item>
+    	<item name = "android:layout_weight">1</item>
+    	<item name = "android:textAppearance">?android:attr/textAppearanceSmall</item>
+    	<item name = "android:gravity">center</item>
+    	<item name = "android:textColor">@color/marron_claro</item>
+    </style>
+   
+    <color name="blanco">#FFFFFF</color>
+    <color name="negro">#000000</color>
+    <color name="gris_oscuro">#292929</color>
+    <color name="gris_medio">#5B7876</color>
+    <color name="gris_claro">#8F9E8B</color>
+    <color name="marron_claro">#F2E6B6</color>
+    <color name="marron_oscuro">#412A22</color>
+
+    <style name="tirada_fila">
+         <item name = "android:background">@drawable/fila</item>
+         <item name	= "android:layout_weight">1</item> 
+     	 <item name = "android:padding">10dp</item>
+     
+    </style>
+    
+    
+    <!-- NUEVA FICHA -->
+ 
+    <style name="cabecera">
+        <item name ="android:layout_width">match_parent</item>
+        <item name ="android:layout_height">wrap_content</item>
+        <item name ="android:textColor">@color/marron_oscuro</item>
+        <item name ="android:background">@drawable/celda_gris_claro</item>
+    </style>
+    
+    <style name="celda_raza_clase">
+    	 <!-- Estilo usado para Nueva Ficha >> Seleccion de raza y clase -->
+    	 <item name="android:layout_height">80dp</item>
+         <item name="android:layout_weight">1</item>
+    </style>
+    
+	<style name="nf_spinner">
+	    <item name = "android:background">@drawable/spinner_img</item>
+	    <item name = "android:textAppearance">?android:attr/textAppearanceSmall</item>
+		<item name = "android:textColor">@color/negro</item>
+		<item name = "android:spinnerMode">dropdown</item>
+    </style>
+    
+	<dimen name="tamano_dado">40dp</dimen>
+    <dimen name="radio_esquinas">30dp</dimen>
+     
+</resources>

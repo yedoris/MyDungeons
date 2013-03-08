@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/celda_gris_claro"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Deidad:"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_marginTop	="10dp"
+        android:layout_marginLeft	="10dp"
+        android:layout_marginRight	="10dp"
+        android:layout_marginBottom	="0dp"
+        />
+
+    <Spinner
+        android:id="@+id/nf_spinner_deidad"
+        style="@style/nf_spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+    	android:layout_marginTop	="0dp"
+    	android:layout_marginLeft	="10dp"
+        android:layout_marginRight	="10dp"
+        android:layout_marginBottom	="20dp"
+        />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dominios:"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_marginTop	="0dp"
+    	android:layout_marginLeft	="10dp"
+        android:layout_marginRight	="10dp"
+        android:layout_marginBottom	="0dp"
+         />
+        <Spinner
+        android:id="@+id/snf_spinner_dominio1"
+        style="@style/nf_spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+		android:layout_marginTop	="0dp"
+    	android:layout_marginLeft	="10dp"
+        android:layout_marginRight	="10dp"
+        android:layout_marginBottom	="10dp"/>
+        
+	    <Spinner
+        android:id="@+id/nf_spinner_dominio2"
+        style="@style/nf_spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+		android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="20dp"
+         />
+
+    <TextView
+        android:id="@+id/nf_spinner_descr"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        style="@style/celda_marron_claro"
+		android:layout_marginTop	="0dp"
+    	android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="mbmñma aslñmsdñ am asñldm asdmalñsdm asldm asñd asmñldm asñdm asñ"
+        />
+
+
+</LinearLayout>
+	

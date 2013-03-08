@@ -1,0 +1,116 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/marron_claro"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/nf_class"
+        style="@style/cabecera"
+        android:layout_margin="10dp"
+        android:text=" Escoge una clase:"/>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/celda_gris_claro" >
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+        	android:layout_marginRight="10dp"
+            android:layout_weight="1" >
+
+            <ImageView
+                android:id="@+id/nf_brb"
+                style="@style/celda_raza_clase"
+                android:src="@drawable/brb" />
+
+            <ImageView
+                android:id="@+id/nf_brd"
+                style="@style/celda_raza_clase"
+                android:src="@drawable/brd" />
+
+            <ImageView
+                android:id="@+id/nf_cle"
+                style="@style/celda_raza_clase"
+                android:src="@drawable/cle" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="10dp"
+        	android:layout_marginRight="10dp"
+        
+            android:layout_weight="1" >
+
+            <ImageView
+                android:id="@+id/nf_drd"
+                style="@style/celda_raza_clase"
+                android:src="@drawable/drd" />
+
+            <ImageView
+                android:id="@+id/nf_exp"
+                style="@style/celda_raza_clase"
+                android:src="@drawable/exp" />
+
+            <ImageView
+                android:id="@+id/nf_gue"
+                style="@style/celda_raza_clase"
+                android:src="@drawable/gue" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="10dp"
+        	android:layout_marginRight="10dp"
+        
+            android:layout_weight="1" >
+
+            <ImageView
+                android:id="@+id/nf_hec"
+                style="@style/celda_raza_clase"
+                android:src="@drawable/hec" />
+
+            <ImageView
+                android:id="@+id/nf_mag"
+                style="@style/celda_raza_clase"
+                android:src="@drawable/mag" />
+
+            <ImageView
+                android:id="@+id/nf_mnj"
+                style="@style/celda_raza_clase"
+                android:src="@drawable/mnj" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="10dp"
+        	android:layout_marginRight="10dp"
+            android:layout_weight="1" >
+
+            <ImageView
+                android:id="@+id/nf_pal"
+                style="@style/celda_raza_clase"
+                android:src="@drawable/pal" />
+
+            <ImageView
+                android:id="@+id/nf_pic"
+                style="@style/celda_raza_clase"
+                android:src="@drawable/pic" />
+
+            <ImageView style="@style/celda_raza_clase" />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

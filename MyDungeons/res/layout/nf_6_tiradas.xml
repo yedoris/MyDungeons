@@ -1,0 +1,165 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/marron_claro"
+    android:orientation="vertical" >
+
+    <sirodey.mydungeons.Roll
+        android:id="@+id/nf_roll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+    </sirodey.mydungeons.Roll>
+
+    <TextView
+        android:id="@+id/nf_tiradas_msg"
+        style="@style/cabecera"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp" 
+        android:text=" lanza los dados" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp" >
+
+        <TableRow
+            style="@style/celda_gris_clara"
+            android:layout_marginBottom="10dp" >
+
+            <TextView
+                style="@style/nf_tiradas_col_base"
+                android:text="Fuerza:" />
+
+            <TextView
+                android:id="@+id/nf_fuerza_base"
+                style="@style/celda_marron_claro"/>
+
+            <TextView
+                android:id="@+id/nf_fuerza_mod"
+                style="@style/nf_tiradas_col_mod"/>
+
+            <TextView
+                android:id="@+id/nf_fuerza_total"
+                style="@style/celda_gris_oscura"
+                android:layout_marginRight="10dp"/>
+        </TableRow>
+        
+        <TableRow
+            style="@style/celda_gris_clara"
+            android:layout_marginBottom="10dp" >
+
+            <TextView
+                style="@style/nf_tiradas_col_base"
+                android:text="Destreza:" />
+
+            <TextView
+                android:id="@+id/nf_destreza_base"
+                style="@style/celda_marron_claro"/>
+
+            <TextView
+                android:id="@+id/nf_destreza_mod"
+                style="@style/nf_tiradas_col_mod"
+                android:textColor="@color/marron_claro" />
+
+            <TextView
+                android:id="@+id/nf_destreza_total"
+                style="@style/celda_gris_oscura"
+                android:layout_marginRight="10dp" />
+        </TableRow>
+        
+        <TableRow
+            style="@style/celda_gris_clara"
+            android:layout_marginBottom="10dp" >
+
+            <TextView
+                style="@style/nf_tiradas_col_base"
+                android:text="Constitucion:" />
+
+            <TextView
+                android:id="@+id/nf_constitucion_base"
+                style="@style/celda_marron_claro"/>
+
+            <TextView
+                android:id="@+id/nf_constitucion_mod"
+                style="@style/nf_tiradas_col_mod"/>
+
+            <TextView
+                android:id="@+id/nf_constitucion_total"
+                style="@style/celda_gris_oscura"
+                android:layout_marginRight="10dp" />
+        </TableRow>
+        
+        <TableRow
+            style="@style/celda_gris_clara"
+            android:layout_marginBottom="10dp" >
+
+            <TextView
+                style="@style/nf_tiradas_col_base"
+                android:text="Inteligencia :"/>
+
+            <TextView
+                android:id="@+id/nf_inteligencia_base"
+                style="@style/celda_marron_claro"/>
+
+            <TextView
+                android:id="@+id/nf_inteligencia_mod"
+                style="@style/nf_tiradas_col_mod" />
+
+            <TextView
+                android:id="@+id/nf_inteligencia_total"
+                style="@style/celda_gris_oscura"
+                android:layout_marginRight="10dp" />
+        </TableRow>
+
+		<TableRow
+		    style="@style/celda_gris_clara"
+		    android:layout_marginBottom="10dp" >
+
+		    <TextView
+		        style="@style/nf_tiradas_col_base"
+		        android:text="Sabiduria:" />
+
+		    <TextView
+		        android:id="@+id/nf_sabiduria_base"
+		        style="@style/celda_marron_claro"/>
+
+		    <TextView
+		        android:id="@+id/nf_sabiduria_mod"
+		        style="@style/nf_tiradas_col_mod"/>
+
+		    <TextView
+		        android:id="@+id/nf_sabiduria_total"
+		        style="@style/celda_gris_oscura"
+		        android:layout_marginRight="10dp" />
+		</TableRow>
+        
+		<TableRow
+		    style="@style/celda_gris_clara"
+		    android:layout_marginBottom="10dp" >
+
+		    <TextView
+		        style="@style/nf_tiradas_col_base"
+		        android:text="Carisma:" />
+
+		    <TextView
+		        android:id="@+id/nf_carisma_base"
+		        style="@style/celda_marron_claro"/>
+
+		    <TextView
+		        android:id="@+id/nf_carisma_mod"
+		        style="@style/nf_tiradas_col_mod"/>
+
+		    <TextView
+		        android:id="@+id/nf_carisma_total"
+		        style="@style/celda_gris_oscura"
+		        android:layout_marginRight="10dp" /> 
+		</TableRow>
+      
+    </TableLayout>
+     
+</LinearLayout>

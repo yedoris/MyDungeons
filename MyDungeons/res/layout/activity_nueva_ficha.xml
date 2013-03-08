@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <ViewFlipper android:id="@+id/viewFlipper"
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent" >
+
+        
+
+        <include layout="@layout/nf_3_clase"/>
+        <include layout="@layout/nf_4_raza"/>
+        <include layout="@layout/nf_5_alineamiento"/>
+        <include layout="@layout/nf_6_tiradas"/>
+        <include layout="@layout/nf_7_clase"/>
+        <include layout="@layout/nf_9"/>
+
+    </ViewFlipper>
+
+</LinearLayout>
